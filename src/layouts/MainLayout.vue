@@ -33,42 +33,16 @@
           style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
           <q-list padding>
             <q-item
-            to="/"
+            to="/quote"
             exact
             clickable
             v-ripple>
               <q-item-section avatar>
-                <q-icon name="photo" />
+                <q-icon name="format_quote" />
               </q-item-section>
 
               <q-item-section>
-                Photos
-              </q-item-section>
-            </q-item>
-            <q-item
-              to="/albums"
-              exact
-              clickable
-              v-ripple>
-              <q-item-section avatar>
-                <q-icon name="album" />
-              </q-item-section>
-
-              <q-item-section>
-                Albums
-              </q-item-section>
-            </q-item>
-            <q-item
-              to="/settings"
-              exact
-              clickable
-              v-ripple>
-              <q-item-section avatar>
-                <q-icon name="settings" />
-              </q-item-section>
-
-              <q-item-section>
-                Settings
+                Quote
               </q-item-section>
             </q-item>
           </q-list>

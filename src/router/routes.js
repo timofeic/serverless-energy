@@ -20,6 +20,18 @@ const routes = [
     }]
   },
   {
+    path: '/quote',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{
+      path: '',
+      name: 'quote',
+      component: () => import('pages/Quote.vue'),
+      meta: {
+        requiresAuth: false
+      }
+    }]
+  },
+  {
     path: '/profile',
     component: () => import('layouts/MainLayout.vue'),
     children: [{
