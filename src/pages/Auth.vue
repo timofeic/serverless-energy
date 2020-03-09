@@ -37,22 +37,6 @@ export default {
                 displayOrder: 3,
                 type: 'string'
               },
-              {
-                label: 'First Name',
-                key: 'first_name',
-                required: false,
-                displayOrder: 4,
-                type: 'string',
-                custom: true
-              },
-                            {
-                label: 'Last Name',
-                key: 'last_name',
-                required: false,
-                displayOrder: 5,
-                type: 'string',
-                custom: true
-              }
             ]
           }
         }

@@ -9,7 +9,7 @@ const routes = [
   },
   {
     path: '/auth',
-    component: () => import('layouts/MyLayout.vue'),
+    component: () => import('layouts/MainLayout.vue'),
     children: [{
       path: '',
       name: 'auth',
@@ -21,7 +21,7 @@ const routes = [
   },
   {
     path: '/profile',
-    component: () => import('layouts/MyLayout.vue'),
+    component: () => import('layouts/MainLayout.vue'),
     children: [{
       name: 'profile',
       path: '',

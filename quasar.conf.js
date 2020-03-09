@@ -68,6 +68,9 @@ module.exports = function (ctx) {
 
       // https://quasar.dev/quasar-cli/cli-documentation/handling-webpack
       extendWebpack (cfg) {
+      },
+      chainWebpack (cfg) {
+        cfg.resolve.extensions.prepend('.mjs')
       }
     },
 
